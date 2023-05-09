@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=UserManager
+comment0.text=\n\ UserManager\ Class\n\ Controller\ class\ responsible\ for\ managing\ users.\n\ Provides\ and\ interface\ for\ various\ tasks\ associated\ with\ users\n\ \n\ NOTE\:\ This\ is\ only\ a\ partial\ implementation\ of\ the\ online\ ticketing\ system.\n\n\ @author\ (Alan\ Dale)\n\ @version\ (06/05/2023)\n
+comment1.params=
+comment1.target=UserManager()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ UserManager\n
+comment2.params=userName\ password
+comment2.target=void\ createUser(java.lang.String,\ java.lang.String)
+comment2.text=\n\ Creates\ a\ User\ Class\ and\ stores\ it\ in\ the\ users\ list\n\ \n\ @param\ String\ Username\:\ name\ given\ by\ the\ user\n\ @param\ String\ Password\:\ password\ given\ by\ the\ user\n
+comment3.params=username\ password
+comment3.target=void\ signIn(java.lang.String,\ java.lang.String)
+comment3.text=\n\ Signs\ the\ user\ into\ the\ system\n\ \n\ @param\ String\ username\:\ username\ for\ the\ user\n\ @param\ String\ password\:\ password\ for\ the\ user\n\ \n\ @throws\ Exception\:\ Throws\ an\ error\ when\ trying\ to\ sign\ in\ when\ no\ users\ exist\ in\ the\ system\n
+comment4.params=
+comment4.target=void\ signOut()
+comment4.text=\n\ Signs\ the\ current\ user\ out\ of\ the\ system\n
+comment5.params=userName
+comment5.target=boolean\ verifyUser(java.lang.String)
+comment5.text=\n\ Verifies\ if\ a\ username\ exists\ in\ the\ system\n
+numComments=6

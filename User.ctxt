@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=User
+comment0.text=\n\ User\ Class\n\ Contains\ properties\ associated\ with\ a\ user\n\ \n\ NOTE\:\ This\ is\ only\ a\ partial\ implementation\ of\ the\ online\ ticketing\ system.\n\n\ @author\ (Alan\ Dale)\n\ @version\ (06/05/2023)\n
+comment1.params=username\ password\ id
+comment1.target=User(java.lang.String,\ java.lang.String,\ java.lang.Integer)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ UserManager\n
+comment2.params=
+comment2.target=java.lang.Integer\ getId()
+comment2.text=\n\ Returns\ the\ ID\ of\ the\ user\n\ \n\ @return\ Integer\ id\:\ id\ of\ the\ user\n
+comment3.params=
+comment3.target=User.UserType\ getType()
+comment3.text=\n\ Returns\ the\ user\ type\n\ \n\ @return\ UserType\:\ Enum\ value\ CONSUMER\ |\ AGENT\n
+comment4.params=type
+comment4.target=void\ setType(User.UserType)
+comment4.text=\n\ Sets\ the\ user\ type\n\ \n\ @param\ Enum\ UserType\n
+comment5.params=
+comment5.target=java.lang.String\ getPassword()
+comment5.text=\n\ Gets\ the\ users\ current\ password\n\ \n\ @return\ String\:\ password\ for\ the\ user\n
+comment6.params=password
+comment6.target=void\ setPassword(java.lang.String)
+comment6.text=\n\ Sets\ the\ users\ password\n\ \n\ @param\ String\ password\:\ password\ for\ the\ user\n
+numComments=7

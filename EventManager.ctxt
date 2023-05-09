@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EventManager
+comment0.text=\n\ EventManager\ Class\n\ Controller\ class\ responsible\ for\ managing\ events.\n\ Provides\ and\ interface\ for\ various\ tasks\ associated\ with\ events\n\ \n\ NOTE\:\ This\ is\ only\ a\ partial\ implementation\ of\ the\ online\ ticketing\ system.\n\n\ @author\ (Alan\ Dale)\n\ @version\ (06/05/2023)\n
+comment1.params=
+comment1.target=EventManager()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ EventManager\n
+comment2.params=name
+comment2.target=Event\ createEvent(java.lang.String)
+comment2.text=\n\ Creates\ an\ Event\ Class\ and\ stores\ it\ in\ the\ events\ list\n\ \n\ @param\ String\ name\:\ name\ given\ for\ the\ event\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getEvents()
+comment3.text=\n\ Returns\ a\ list\ of\ event\ classes\ that\ exist\ in\ the\ system\n\ \n\ @return\ ArrayList<Event>\:\ All\ the\ events\ stored\ in\ the\ system\n
+comment4.params=id
+comment4.target=Event\ getEvent(int)
+comment4.text=\n\ Returns\ an\ event\ class\ for\ a\ given\ id\n\ \n\ @param\ int\ id\:\ id\ for\ the\ event\n\ \n\ @return\ Event\:\ The\ event\ with\ the\ given\ id\n
+numComments=5

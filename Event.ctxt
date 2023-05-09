@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Event
+comment0.text=\n\ Event\ Class\n\ Contains\ properties\ associated\ with\ an\ Event\n\ \n\ NOTE\:\ This\ is\ only\ a\ partial\ implementation\ of\ the\ online\ ticketing\ system.\n\n\ @author\ (Alan\ Dale)\n\ @version\ (06/05/2023)\n
+comment1.params=name\ id
+comment1.target=Event(java.lang.String,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Event\n\ \n\ @param\ String\ name\:\ event\ name\n\ @param\ int\ id\:\ event\ id\n
+comment2.params=show
+comment2.target=void\ addShow(Show)
+comment2.text=\n\ Add\ a\ show\ to\ the\ event\n\ \n\ @param\ Show\ show\:\ instance\ of\ a\ show\n
+comment3.params=shows
+comment3.target=void\ addShows(java.util.ArrayList)
+comment3.text=\n\ Add\ shows\ to\ the\ event\n\ \n\ @param\ ArrayList<Show>\ shows\:\ Array\ List\ of\ show\ classes\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getShows()
+comment4.text=\n\ Returns\ shows\ for\ the\ event\n\ \n\ @return\ ArrayList<Show>\ shows\:\ Collection\ of\ shows\ attached\ to\ the\ event\n
+comment5.params=id
+comment5.target=void\ removeShow(int)
+comment5.text=\n\ Remove\ a\ show\ from\ the\ event\n\ \n\ @param\ int\ id\:\ id\ of\ show\ to\ be\ removed\n
+comment6.params=
+comment6.target=java.lang.String\ getIdString()
+comment6.text=\n\ Returns\ the\ event\ id\ as\ a\ string\n\ \n\ @return\ String\ id\:\ id\ as\ a\ string\n
+numComments=7
